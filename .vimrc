@@ -1,5 +1,9 @@
 " Make Vim more useful
 set nocompatible
+" Set indentation with Soft Tabs
+set expandtab
+set shiftwidth=4
+set softtabstop=4
 " Use the OS clipboard by default (on versions compiled with `+clipboard`)
 set clipboard=unnamed
 " Enhance command-line completion
