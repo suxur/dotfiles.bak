@@ -1,5 +1,9 @@
 " Make Vim more useful
 set nocompatible
+" Set indentation with Soft Tabs
+set expandtab
+set shiftwidth=4
+set softtabstop=4
 " Use the OS clipboard by default (on versions compiled with `+clipboard`)
 set clipboard=unnamed
 " Enhance command-line completion
@@ -20,8 +24,8 @@ let mapleader=","
 set binary
 set noeol
 " Centralize backups, swapfiles and undo history
-set backupdir=~/.vim/backups
-set directory=~/.vim/swaps
+"set backupdir=~/.vim/backups
+"set directory=~/.vim/swaps
 if exists("&undodir")
 	set undodir=~/.vim/undo
 endif
