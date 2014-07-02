@@ -32,6 +32,8 @@ alias hosts="sudo vim /etc/hosts"
 alias vhosts="sudo vim /etc/apache2/extra/httpd-vhosts.conf"
 alias phpini="sudo vim /etc/php.ini"
 alias restartApache="sudo apachectl restart"
+alias stopApache="sudo apachectl stop"
+alias startApache="sudo apachectl start"
 
 # List all files colorized in long format
 alias l="ls -lF ${colorflag}"
